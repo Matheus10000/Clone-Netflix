@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  font-family: 'Arial', Helvetica, sans-serif;
+  color: white;}
+
+.logo{
+  font-size: 40px;
+  color:red;
+  font-family: 'Trebuchet MS',  Arial, sans-serif;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.pergunta{
+  display: flex;
+  font-size: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.botao{
+  background-image:url('../img/foto-perfil-macaco2.jpg');
+  width: max-content;
+  padding:100px ; 
+  margin-top: 50px;
+  border: none;
+  color: white;
+
+  
+  cursor: pointer;
+  transition: .3s ease all;
+
+}
+.botao:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none ;
+}
+.botao:hover{
+ color: rgb(48, 119, 124);
+ box-shadow: 5px 5px 5px;
+
+}
+.botao2{
+   background: url('../img/fotoa-perfil-macaco.jpg');
+  width: max-content;
+  padding:100px ; 
+  margin-top: 50px;
+  border: none;
+  color:white ;
+
+  
+  cursor: pointer;
+  transition: .3s ease all;
+
+}
+.botao2:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none ;
+}
+.botao2:hover{
+ color: rgb(133, 2, 100);
+ box-shadow: 5px 5px 5px;
+
+}
+
+.nome{
+  font-size: 20px;
+  font-family: 'Arial ';
+
+}
+footer .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 450px;
+  margin-top: 20px;
+}
